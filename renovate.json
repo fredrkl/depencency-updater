@@ -4,6 +4,7 @@
   "semanticCommits": "enabled",
   "rebaseWhen": "never",
   "labels": ["dependencies"],
+  "autodiscover": true,
   "packageRules": [
     {"matchManagers": ["nuget"], "enabled": true},
     {"matchUpdateTypes": ["major"], "semanticCommitType": "feat"},
