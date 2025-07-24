@@ -24,3 +24,4 @@ jobs:
         env:
           LOG_LEVEL: 'debug'
           RENOVATE_AUTODISCOVER: true
+          RENOVATE_PLATFORM: 'github'
