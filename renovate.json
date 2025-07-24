@@ -4,7 +4,6 @@
   "semanticCommits": "enabled",
   "rebaseWhen": "never",
   "labels": ["dependencies"],
-  "repositories": ["fredrkl/template-base"],
   "packageRules": [
     {"matchManagers": ["nuget"], "enabled": true},
     {"matchUpdateTypes": ["major"], "semanticCommitType": "feat"},
