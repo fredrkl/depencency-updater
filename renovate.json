@@ -6,7 +6,7 @@
   "packageRules": [
     {"matchManagers": ["nuget"], "enabled": true},
     {"matchUpdateTypes": ["major"], "semanticCommitType": "feat"},
-    {"matchUpdateTypes": ["minor"], "semanticCommitType": "feat", automerge: true},
-    {"matchUpdateTypes": ["patch"], "semanticCommitType": "fix", automerge: true}
+    {"matchUpdateTypes": ["minor"], "semanticCommitType": "feat", "automerge": true},
+    {"matchUpdateTypes": ["patch"], "semanticCommitType": "fix", "automerge": true}
   ]
 }
