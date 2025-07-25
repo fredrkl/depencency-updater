@@ -14,8 +14,8 @@ App](https://github.com/marketplace/renovate) on your own profile or
 organization instead. However, I wanted to showcase and have full control over
 the Renovate setup, so I decided to run it as a custom GitHub App.
 
-This repo has the Renovate APP ID and the private key as _repository secrets_
-to authenticate the application. Please see the
+This repo has the Renovate _APP ID_ and the _private key_ as _repository
+secrets_ to authenticate the application. Please see the
 [renovate.yml](.workflows/renovate.yml) and the
 [./renovate.json](./renovate.json) files for the configuration. [Self hosted
 configuration
