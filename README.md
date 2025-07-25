@@ -10,4 +10,4 @@ GitHub app is installed on my profile.
 In order to monitor a new repository, you need to give the GitHub App access by
 extending the list on: <https://github.com/settings/installations/77373733>.
 Renovate is running using the autodiscovery feature, so it will automatically
-start monitoring the repositories it has access to.
+start monitoring all repositories it has access to.
