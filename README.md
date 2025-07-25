@@ -14,6 +14,15 @@ App](https://github.com/marketplace/renovate) on your own profile or
 organization instead. However, I wanted to showcase and have full control over
 the Renovate setup, so I decided to run it as a custom GitHub App.
 
+This repo has the Renovate APP ID and the private key as _repository secrets_
+to authenticate the application. Please see the
+[renovate.yml](.workflows/renovate.yml) and the
+[./renovate.json](./renovate.json) files for the configuration. [Self hosted
+configuration
+options](https://docs.renovatebot.com/self-hosted-configuration/#self-hosted-configuration-options)
+are configured using environment variables in the workflow. Other settings are
+configured in the `renovate.json` file.
+
 ## Monitoring new repository
 
 In order to monitor a new repository, you need to give the GitHub App access by
