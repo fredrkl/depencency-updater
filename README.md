@@ -9,6 +9,11 @@ I followed the guide on [Running as a GitHub
 App](https://docs.renovatebot.com/modules/platform/github/#running-as-a-github-app)
 in order to have full control over the repositories Renovate is monitoring.
 
+It is possible to install the [Renovate GitHub
+App](https://github.com/marketplace/renovate) on your own profile or
+organization instead. However, I wanted to showcase and have full control over
+the Renovate setup, so I decided to run it as a custom GitHub App.
+
 ## Monitoring new repository
 
 In order to monitor a new repository, you need to give the GitHub App access by
